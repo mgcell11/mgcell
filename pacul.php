@@ -1,6 +1,4 @@
 <?php
-echo "Waktu   : date +%T\n";
-echo "Tanggal : date +%D\n";
 echo "<font color='red'>GENERATOR NIK NOK</font>
 echo "Created By Adun Banding\n";
 @ini_set('output_buffering',0);
