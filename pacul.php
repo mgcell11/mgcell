@@ -1,8 +1,8 @@
 <?php
-echo 'Waktu   : date +%T
-echo 'Tanggal : date +%D
+echo "Waktu   : date +%T\n";
+echo "Tanggal : date +%D\n";
 echo "<font color='red'>GENERATOR NIK NOK</font>
-echo "Created By Adun Banding";
+echo "Created By Adun Banding\n";
 @ini_set('output_buffering',0);
 $data = array('3213127112370008 | 3213120302110029', '3213127112370008 | 3213120302110029', '3213127112370008 | 3213120302110029', '3213127112370008 | 3213120302110029');
 $data2 = $data[array_rand($data)];
