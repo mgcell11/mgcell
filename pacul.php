@@ -1,10 +1,10 @@
 <?php
-echo 'Waktu   : ' . date('d-m-Y H:i:s');
-echo 'Tanggal : ' . date('d.m.y')
+echo 'Waktu   : date +%T
+echo 'Tanggal : date +%D
 echo "<font color='red'>GENERATOR NIK NOK</font>
 echo "Created By Adun Banding";
 @ini_set('output_buffering',0);
-$data = array('3213127112370008 | 3213120302110029');
+$data = array('3213127112370008 | 3213120302110029', '3213127112370008 | 3213120302110029', '3213127112370008 | 3213120302110029', '3213127112370008 | 3213120302110029');
 $data2 = $data[array_rand($data)];
 $data3 = explode(' | ', $data2);
 //$ktp = base64_encode($data3[0]);
