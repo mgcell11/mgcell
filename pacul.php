@@ -2,7 +2,7 @@
 
 include "function.php";
 @ini_set('output_buffering',0);
-$data = array('3213092760043 | 3213097740006');
+$data = array('GABOLEH | KOPLOK');
 $data2 = $data[array_rand($data)];
 $data3 = explode(' | ', $data2);
 //$ktp = base64_encode($data3[0]);
@@ -15,7 +15,7 @@ echo " \n";
 echo color("green","           GENERATOR NIK NOK\n");
 echo color("yellow","            Code By MG Cell\n");
 echo " \n";
-echo "|Time    :".date('[d-m-Y] [H:i:s]')."   \n";
+echo "Time    :".date('[d-m-Y] [H:i:s]')."   \n";
 echo " \n";
 echo " \n";
 echo color("purple","No. KTP : ".$ktp."\n");
