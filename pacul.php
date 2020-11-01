@@ -11,6 +11,7 @@ $ktp = $data3[0];
 $kk = $data3[1];
 //$data4 = array('KTP' => $ktp, 'NO_KK' => $kk);
 //print(json_encode(array('src'=>'Hasil', 'result'=>$data4)));
+date_default_timezone_set('Asia/Jakarta');
 echo " \n";
 echo color("green","           GENERATOR NIK NOK\n");
 echo color("yellow","            Code By MG Cell\n");
