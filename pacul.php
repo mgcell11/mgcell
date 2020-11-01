@@ -11,12 +11,12 @@ $ktp = $data3[0];
 $kk = $data3[1];
 //$data4 = array('KTP' => $ktp, 'NO_KK' => $kk);
 //print(json_encode(array('src'=>'Hasil', 'result'=>$data4)));
-echo         "GENERATOR NIK NOK\n";
-echo color("red","Code By Adun Bandring\n");
-echo "Time    :".date('[d-m-Y] [H:i:s]')."   \n";
+echo color("green","|           GENERATOR NIK NOK\n";
+echo color("yellow","|            Code By MG Cell\n");
+echo "|Time    :".date('[d-m-Y] [H:i:s]')."   \n";
 echo color("blue"," ===========================\n");
 echo color("blue"," vvvvvvvvvvvvvvvvvvvvvvvvvvv\n");
-echo color("yellow","No. KTP : ".$ktp."\n");
-echo color("green","No. KK  : ".$kk."\n");
+echo color("purple","|No. KTP : ".$ktp."\n");
+echo color("nevy","|No. KK  : ".$kk."\n");
 
 ?>
