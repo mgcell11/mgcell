@@ -13,9 +13,10 @@ $kk = $data3[1];
 //print(json_encode(array('src'=>'Hasil', 'result'=>$data4)));
 echo color("green","|           GENERATOR NIK NOK\n");
 echo color("yellow","|            Code By MG Cell\n");
+echo "-\n";
 echo "|Time    :".date('[d-m-Y] [H:i:s]')."   \n";
-echo color("blue"," ===========================\n");
-echo color("blue"," vvvvvvvvvvvvvvvvvvvvvvvvvvv\n");
+echo "-\n";
+echo "-\n";
 echo color("purple","|No. KTP : ".$ktp."\n");
 echo color("nevy","|No. KK  : ".$kk."\n");
 
