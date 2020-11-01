@@ -1,6 +1,4 @@
 <?php
-function request($url, $token = null, $data = null, $pin = null, $otpsetpin = null, $uuid = null){
-}
 function color($color = "default" , $text)
     {
         $arrayColor = array(
